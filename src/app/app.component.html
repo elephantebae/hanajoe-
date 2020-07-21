@@ -1,0 +1,44 @@
+<div class="container-fluid" id="greyBorder">
+  <div>
+    <div class="row d-flex justify-content-end">
+      <div id="ACCOUNT">
+        <a [routerLink]="['/account']">ACCOUNT</a>
+      </div>
+      <div id="CART_0">
+        <a [routerLink]="['/cart']">CART (0)</a>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div id="HANAJOE">
+        <a [routerLink]="['/home']">HANAJOE</a>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div id="HOME">
+        <a [routerLink]="['/home']">HOME</a>
+      </div>
+      <div id="CARD_COLLECTIONS">
+        <a [routerLink]="['/card-collections']">CARD COLLECTIONS</a>
+      </div>
+      <div id="CANDLES">
+        <a [routerLink]="['/candles']">CANDLES</a>
+      </div>
+      <div id="CERAMICS_">
+        <a [routerLink]="['/ceramics']">CERAMICS</a>
+      </div>
+      <div id="CLAY_JEWELRY">
+        <a [routerLink]="['/clay-jewelry']">CLAY JEWELRY</a>
+      </div>
+      <div id="ABOUT_"><a [routerLink]="['/about']">ABOUT</a><br /></div>
+      <div id="CONTACT">
+        <a [routerLink]="['/contact']">CONTACT</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Start your project here-->
+<div style="height: 100vh;"></div>
+<!-- /Start your project here-->
+
+<router-outlet></router-outlet>

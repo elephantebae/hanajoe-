@@ -1,0 +1,136 @@
+// fonts added
+@font-face {
+  font-family: "Theinhardt";
+  src: url("../assets/assets/Fonts/Fonts/Theinhardt/Theinhardt-Rg.otf")
+    format("opentype");
+
+  font-family: "Suisse BP Int'l";
+  src: url("../assets/assets/Fonts/Fonts/Suisse\ BP\ Int'l\ Regular.otf")
+    format("opentype");
+}
+a {
+  color: inherit;
+}
+// scss top to bottom styling
+
+// toolbar border
+#greyBorder {
+  border-top: 2px solid rgba(112, 112, 112, 1);
+  border-bottom: 2px solid rgba(112, 112, 112, 1);
+}
+
+// toolbar border end
+
+// first row
+#ACCOUNT {
+  white-space: nowrap;
+  font-family: "Suisse BP Int'l";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+#CART_0 {
+  white-space: nowrap;
+  font-family: "Suisse BP Int'l";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+// end first row
+
+// second row
+
+#HANAJOE {
+  white-space: nowrap;
+  font-family: "Suisse BP Int'l";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 5rem;
+}
+// end of second row
+
+// third row
+#HOME {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  margin-left: 5rem;
+}
+#ABOUT_ {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#CARD_COLLECTIONS {
+  white-space: nowrap;
+
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#CANDLES {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#CERAMICS_ {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#CLAY_JEWELRY {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#CONTACT {
+  white-space: nowrap;
+  font-family: "Theinhardt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+  margin-left: 5rem;
+}
+
+// end of third row
